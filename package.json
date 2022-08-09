@@ -1,0 +1,23 @@
+{
+  "name": "autocms-update",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "node-cron": "^3.0.1",
+    "webflow-api": "^0.8.0"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
